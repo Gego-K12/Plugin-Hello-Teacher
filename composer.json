@@ -1,0 +1,27 @@
+{
+  "name": "gegok12/hello-teacher",
+  "description": "Inspire teachers daily with motivational quotes",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "GeGoK12 Team",
+      "email": "team@gegok12.com"
+    }
+  ],
+  "require": {
+    "php": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gegok12\\HelloTeacher\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Gegok12\\HelloTeacher\\HelloTeacherServiceProvider"
+      ]
+    }
+  }
+}

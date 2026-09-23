@@ -1,0 +1,26 @@
+{
+  "slug": "hello-teacher",
+  "name": "Hello Teacher",
+  "version": "1.0.0",
+  "description": "Inspire teachers daily with motivational quotes",
+  "author_name": "GeGoK12 Team",
+  "author_email": "team@gegok12.com",
+  "license": "MIT",
+  "service_provider": "Gegok12\\HelloTeacher\\HelloTeacherServiceProvider",
+  "namespace": "Gegok12\\HelloTeacher",
+  "has_dashboard_widgets": false,
+  "has_tools_menu": true,
+  "has_before_content": false,
+  "has_after_content": false,
+  "has_profile_tab": false,
+  "portals": {
+    "admin": {
+      "routes_file": "routes/admin.php",
+      "menu_label": "Daily Quotes"
+    },
+    "teacher": {
+      "routes_file": "routes/teacher.php",
+      "menu_label": "Daily Inspiration"
+    }
+  }
+}
